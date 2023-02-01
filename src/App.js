@@ -1,21 +1,22 @@
-import { BrowserRouter as router, Routes, route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import './App.css';
-import home from './pages/home';
-import skills from './pages/repos';
-import repos from './pages/skills';
-import  navbar from "./components/navbar";
+import Home from '../pages/home';
+import Skills from '../pages/repos';
+import Repos from '../pages/skills';
+import  Navbar from "../components/navbar";
 
 function App() {
   return (
     <div className="App">
-    <router>
-      <navbar />
+    <Router>
+      <Navbar />
       <Routes>
-        <route path="/" element={<home />} />
-        <route path="/repos" element={<repos />} />
-        <route path="/skills" element={<skills />} />
+        <Route path="/"  element={<Home />} />
+        <Route path="/repos" element={<Repos />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
-    </router>
+    </Router>
     </div>
   );
 }
