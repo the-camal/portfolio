@@ -13,9 +13,7 @@ function navbar() {
         </div>
         <div className="links">
             <Link to="/home"> Paul.c </Link>
-
             <Link to="/skills">tech-skills</Link>
-            
             <Link to="/repos">git-repos</Link>
 
         </div>
