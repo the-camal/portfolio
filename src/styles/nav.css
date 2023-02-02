@@ -1,0 +1,28 @@
+.navbar {
+    height: 100px;
+    max-width: 100%;
+    background-color: rgb(5, 5, 187);
+}
+
+.barbutton {
+    height: auto;
+    color: black;
+
+}
+
+.links {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-self: start;
+  justify-content: baseline;
+  color: beige;  
+}
+
+.navbar a {
+    color:rgb(7, 1, 1);
+    text-decoration: none;
+    margin: 50px;
+    font-size: 25px;
+    
+}
