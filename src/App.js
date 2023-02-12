@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Repos from './pages/Repos';
 import Skills from './pages/Skills';
 import  Navbar from "./components/navbar";
+import footer from "./components/footer";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <Route path="/repos" element={<Repos />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
+      <footer>
+        
+      </footer>
     </Router>
     </div>
   );

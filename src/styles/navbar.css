@@ -16,7 +16,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  color: beige;  
+  color: rgb(243, 243, 13);  
 }
 
 .navbar a {
@@ -41,7 +41,7 @@
     margin-right: 20px;
     background-color: transparent;
     border: none;
-    color: white;
+    color: rgb(234, 25, 25);
     cursor: pointer;
   }
   
